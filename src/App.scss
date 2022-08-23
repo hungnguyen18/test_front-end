@@ -1,0 +1,206 @@
+@import 'antd/dist/antd.css';
+
+.app {
+}
+
+.header {
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0);
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.menu {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        cursor: pointer;
+    }
+}
+
+.title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 5rem;
+    line-height: 120%;
+    color: #2d1d61;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 140.2%;
+    color: #363049;
+}
+
+.home {
+    background-color: #e6deff;
+}
+
+.section {
+    padding: 100px;
+}
+
+.banner {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner-right {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card {
+    height: 300px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #f3f4fe;
+    box-shadow: 0px 50px 115px rgba(165, 153, 209, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .card__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.8rem;
+        line-height: 130%;
+        color: #352b53;
+    }
+
+    .card__subtitle {
+        padding: 0;
+        margin: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 140.2%;
+        color: #363049;
+    }
+}
+
+.btn {
+    width: 242px;
+    height: 70px;
+    left: 140px;
+    top: 554px;
+    border: none;
+    background: #7951f9;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 170.19%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.title-main {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 5rem;
+    line-height: 120%;
+    color: #2d1d61;
+    text-align: center;
+}
+
+.box {
+    margin-top: 50px;
+}
+
+.box__item {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item {
+    background: #ffffff;
+    border: 1px solid #f3f4fe;
+    box-shadow: 0px 20px 95px rgba(201, 203, 204, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+
+    .item__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.8rem;
+        line-height: 130%;
+        color: #352b53;
+    }
+
+    .item__subtitle {
+        padding: 0;
+        margin: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 140.2%;
+        color: #363049;
+    }
+}
+
+.ct {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .btn-ct {
+        width: 242px;
+        height: 70px;
+        left: 140px;
+        top: 554px;
+        border: none;
+        background: #7951f9;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 170.19%;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+}
+
+.content1 {
+    width: 50%;
+
+    h2 {
+        color: #7951f9;
+    }
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
